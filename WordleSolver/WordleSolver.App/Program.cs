@@ -9,7 +9,11 @@ namespace WordleSolver.App
             var words = GetWords();
             var solver = new Solver(words);
 
-            while (true)
+            Console.WriteLine("Welcome.");
+            Console.WriteLine("Use [] to indicate correct letters.");
+            Console.WriteLine("Use () to indicate correct letter that is misplaced.");
+
+            for (var i = 0; i < 6; i++)
             {
                 Console.Write(": ");
                 var input = Console.ReadLine();
