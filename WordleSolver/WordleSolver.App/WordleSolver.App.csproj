@@ -13,4 +13,8 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WordleSolver.IO\WordleSolver.IO.csproj" />
+  </ItemGroup>
+
 </Project>
